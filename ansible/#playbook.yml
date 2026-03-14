@@ -1,6 +1,6 @@
 ---
-- name: Install and Deploy WAR to Tomcat on Ubuntu
-  hosts: localhost
+#- name: Install and Deploy WAR to Tomcat on Ubuntu
+ # hosts: localhost
   become: true
   vars:
    tomcat_service: tomcat10
